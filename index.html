@@ -1,20 +1,89 @@
 <!DOCTYPE html>
 <html>
-<head>
+<head lang="en">
     <meta charset="UTF-8">
-    <title>珠峰轮播图</title>
-    <link type="text/css" rel="stylesheet" href="css/banner.css"/>
+    <title>场景二</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" href="index.css"/>
 </head>
 <body>
-<div class="banner" id="banner">
-    <div class="bannerImg" id="bannerImg"></div>
-    <ul class="bannerTip" id="bannerTip"></ul>
-    <a href="javascript:;" class="bannerLeft" id="bannerLeft"></a>
-    <a href="javascript:;" class="bannerRight" id="bannerRight"></a>
-</div>
-
-<script type="text/javascript" src="js/utils.js"></script>
-<script type="text/javascript" src="js/animate.js"></script>
-<script type="text/javascript" src="js/banner.js"></script>
+    <div id="main">
+        <div id="sound">
+            <audio src="images/bell.mp3" loop id="bell"></audio>
+            <audio src="images/say.mp3" loop id="say"></audio>
+            <audio src="images/music.mp3" loop id="music"></audio>
+        </div>
+        <div class="loading">
+            <p class="progress">
+                <span class="loadSpan"></span>
+            </p>
+        </div>
+        <div id="phone">
+            <div class="phoneHead"></div>
+            <div class="answerOne">
+                <div class="touchOne"></div>
+                <div class="touchClick"></div>
+            </div>
+            <div class="answerOther">
+                <div class="otherClick"></div>
+            </div>
+        </div>
+        <div class="message">
+            <ul>
+                <li class="left">
+                    <img src="images/messageHead1.png">
+                    <img src="images/messageArrow1.png">
+                    那个谁谁谁.....
+                </li>
+                <li class="right">
+                    <img src="images/messageHead2.png">
+                    <img src="images/messageArrow2.png">
+                    你好,我是小乐~~~~~~
+                </li>
+                <li class="left">
+                    <img src="images/messageHead1.png">
+                    <img src="images/messageArrow1.png">
+                    哦,小乐乐你好!
+                </li>
+                <li class="right">
+                    <img src="images/messageHead2.png">
+                    <img src="images/messageArrow2.png">
+                    你好,我是小乐小乐乐你好小乐乐你好~~~~~~
+                </li>
+                <li class="left">
+                    <img src="images/messageHead1.png">
+                    <img src="images/messageArrow1.png">
+                    哦,小乐乐你好小乐乐你好小乐乐你好!
+                </li>
+                <li class="right">
+                    <img src="images/messageHead2.png">
+                    <img src="images/messageArrow2.png">
+                    你好,我是小乐小乐乐你好小乐乐你好~~~~~~
+                </li>
+                <li class="left">
+                    <img src="images/messageHead1.png">
+                    <img src="images/messageArrow1.png">
+                    哦,小乐乐你好小乐乐你好小乐乐你好!
+                </li>
+                <li class="right">
+                    <img src="images/messageHead2.png">
+                    <img src="images/messageArrow2.png">
+                    你好,我是小乐小乐乐你好小乐乐你好~~~~~~
+                </li>
+            </ul>
+            <div class="messageText"></div>
+        </div>
+        <div class="cube">
+            <ul class="cubeBox">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+        </div>
+    </div>
 </body>
 </html>
+<script src="index.js"></script>
