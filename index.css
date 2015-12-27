@@ -51,11 +51,11 @@ ul{
 
     position: absolute;
     bottom: -100%;
-    right: 2%;
+    right: 9%;
     -webkit-transform: rotate(-35deg);
     color: rgb(40, 4, 250);
     line-height: 80px;
-    font-size: 38px;
+    font-size: 30px;
     font-weight: bold;
 }
 
